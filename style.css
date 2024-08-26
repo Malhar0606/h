@@ -1,0 +1,87 @@
+.navigation{
+
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.desktop-list{
+    display: none;
+}
+.navigation a{
+    font-size: 15px;
+}
+.portfolio{
+    letter-spacing: 10px;
+}
+.desktop-list li{
+    font-size: 22px;
+}
+
+/* header */
+.hero{
+    background: rgba(0,0,0,0.5) url('image/hero_2.jpg.webp');
+    width: 100%;
+    height: auto;
+    background-position: 50% 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.hero h1{
+    font-size: 35px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 15px;
+    line-height: 50px;
+}
+.header{
+    height: 70vh;
+}
+
+.contact{
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+
+@media(min-width:576px){
+    .hero h1{
+        font-size: 38px;
+    }
+    .navigation input{
+        display: none;
+    }
+}
+
+@media(min-width:992px){
+
+    .header h1{
+        font-size: 70px;
+        padding-left: 200px;
+        padding-right: 200px;
+        line-height: 85px;
+    }
+    .desktop-list{
+        list-style-type: none;
+        display: flex;
+        font-size: 15px;
+        gap: 40px;
+        color: white;
+    }
+    .desktop-list a{
+        text-decoration: none;
+        color: white;
+    }
+    .mob-bar{
+        display: none;
+    }
+    .navigation ul{
+        margin-right: 20% ;
+    }
+}    
+
+@media(min-width:1200px){
+    .navigation{
+        background-color:transparent;
+        width: 100%;
+        height: auto;
+}
+}
